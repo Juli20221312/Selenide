@@ -22,7 +22,7 @@ public class SelenideTest {
             dateInput.clear();
         }
         Calendar calendar = Calendar.getInstance();
-        calendar.add(Calendar.DAY_OF_YEAR, 3);
+        calendar.add(Calendar.DAY_OF_YEAR, 5);
         SimpleDateFormat dateFormat = new SimpleDateFormat("dd.MM.yyyy");
         String date = dateFormat.format(calendar.getTime());
 
